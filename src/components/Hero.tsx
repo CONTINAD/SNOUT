@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
 
                     {/* Buttons - Brutalist */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <a href="https://pump.fun/board" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black text-lg font-bold hover:bg-ice-200 transition-all uppercase tracking-widest border border-white flex items-center justify-center gap-2">
+                        <a href="https://pump.fun/FAvSN6T9QsYf5xCFi6jKgxxHTw4e2SnnXdnkuGtwpump" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black text-lg font-bold hover:bg-ice-200 transition-all uppercase tracking-widest border border-white flex items-center justify-center gap-2">
                             <span>Buy / Pump</span>
                             <Zap size={20} fill="currentColor" />
                         </a>

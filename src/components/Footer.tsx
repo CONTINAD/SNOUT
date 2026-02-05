@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
                         <a href="https://x.com/i/communities/2019316024764448961" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
                             X Community (Tribe)
                         </a>
-                        <a href="https://pump.fun/board" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
-                            Twitter
+                        <a href="https://pump.fun/FAvSN6T9QsYf5xCFi6jKgxxHTw4e2SnnXdnkuGtwpump" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
+                            Pump.fun
                         </a>
                         <a href="#" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
                             Telegram
