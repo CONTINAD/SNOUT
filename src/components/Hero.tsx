@@ -65,10 +65,10 @@ const Hero: React.FC = () => {
                     transition={{ delay: 1, duration: 0.8 }}
                     className="flex flex-col md:flex-row gap-4 items-center"
                 >
-                    <button className="px-8 py-3 bg-ice-600 hover:bg-ice-500 text-white font-bold rounded-lg shadow-[0_0_20px_rgba(14,165,233,0.4)] transition-all hover:scale-105 flex items-center gap-2">
-                        <span>Buy on Raydium</span>
+                    <a href="https://pump.fun/board" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-green-500 hover:bg-green-400 text-slate-900 font-bold rounded-lg shadow-[0_0_20px_rgba(34,197,94,0.4)] transition-all hover:scale-105 flex items-center gap-2">
+                        <span>Buy on Pump.fun</span>
                         <ExternalLink size={18} />
-                    </button>
+                    </a>
 
                     <div className="flex items-center gap-2 bg-slate-800/50 backdrop-blur-md border border-ice-500/30 px-4 py-3 rounded-lg hover:border-ice-400/50 transition-colors">
                         <span className="font-mono text-ice-100 text-sm md:text-base mr-2">
