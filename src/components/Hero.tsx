@@ -6,7 +6,7 @@ import bannerImg from '../assets/banner_v2.png';
 
 const Hero: React.FC = () => {
     const [copied, setCopied] = useState(false);
-    const ca = "0x0000000000000000000000000000000000000000"; // Placeholder CA
+    const ca = "FAvSN6T9QsYf5xCFi6jKgxxHTw4e2SnnXdnkuGtwpump";
 
     const handleCopy = () => {
         navigator.clipboard.writeText(ca);
