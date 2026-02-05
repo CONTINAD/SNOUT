@@ -11,17 +11,79 @@
   --color-ice-700: #0369a1;
   --color-ice-800: #075985;
   --color-ice-900: #0c4a6e;
-  
+
   --color-snow: #f8fafc;
 
   --font-fantasy: "Cinzel", serif;
   --font-sans: "Inter", sans-serif;
 
   --image-hero-gradient: linear-gradient(to bottom, #0c4a6e, #0284c7);
+
+  --animate-glitch: glitch 1s linear infinite;
+  --animate-shake: shake 0.5s cubic-bezier(.36, .07, .19, .97) both infinite;
+  --animate-pulse-fast: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes glitch {
+
+    2%,
+    64% {
+      transform: translate(2px, 0) skew(0deg);
+    }
+
+    4%,
+    60% {
+      transform: translate(-2px, 0) skew(0deg);
+    }
+
+    62% {
+      transform: translate(0, 0) skew(5deg);
+    }
+  }
+
+  @keyframes shake {
+
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
 }
 
 @layer base {
   body {
     @apply bg-slate-950 text-white font-sans overflow-x-hidden;
+  }
+
+  .font-glitch {
+    position: relative;
+    animation: glitch 1s linear infinite;
+  }
+
+  .skew-section {
+    transform: skewY(-2deg);
+  }
+
+  .skew-section-reverse {
+    transform: skewY(2deg);
+  }
+
+  .unskew {
+    transform: skewY(2deg);
   }
 }

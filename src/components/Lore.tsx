@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const Lore: React.FC = () => {
     return (
-        <section className="relative py-20 overflow-hidden bg-slate-950">
-            <div className="container mx-auto px-4 relative z-10">
+        <section className="relative py-32 overflow-hidden bg-slate-900 transform -skew-y-2 origin-top-left border-y-8 border-ice-900">
+            <div className="container mx-auto px-4 relative z-10 transform skew-y-2">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}

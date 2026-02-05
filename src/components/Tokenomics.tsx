@@ -44,13 +44,13 @@ const Tokenomics: React.FC = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.2 }}
-                            className="bg-slate-950/80 p-8 rounded-xl border border-ice-800/50 hover:border-ice-500/50 transition-colors group text-center"
+                            className="bg-gradient-to-br from-slate-900 to-slate-800 p-8 rounded-2xl border-2 border-ice-800/50 hover:border-green-400/50 transition-all duration-300 group text-center hover:scale-110 hover:shadow-[0_0_30px_rgba(34,197,94,0.3)] hover:-rotate-1"
                         >
-                            <div className="bg-slate-900/50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-ice-900/30 transition-colors border border-ice-800/30">
+                            <div className="bg-slate-950 w-20 h-20 rounded-xl rotate-3 flex items-center justify-center mx-auto mb-6 group-hover:bg-green-900/20 group-hover:rotate-12 transition-all border border-ice-700">
                                 {stat.icon}
                             </div>
-                            <h3 className="text-3xl font-bold text-white mb-2">{stat.value}</h3>
-                            <p className="text-ice-400 font-bold uppercase tracking-wider text-sm mb-2">{stat.label}</p>
+                            <h3 className="text-4xl font-black text-white mb-2 italic">{stat.value}</h3>
+                            <p className="text-green-400 font-bold uppercase tracking-widest text-sm mb-2">{stat.label}</p>
                             <p className="text-slate-500 text-sm">{stat.desc}</p>
                         </motion.div>
                     ))}
