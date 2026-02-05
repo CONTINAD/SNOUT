@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Chart: React.FC = () => {
     // Placeholder CA for the chart, will be updated when real CA is available
-    const ca = "0x0000000000000000000000000000000000000000";
+    const ca = "FAvSN6T9QsYf5xCFi6jKgxxHTw4e2SnnXdnkuGtwpump";
 
     return (
         <section className="relative py-20 bg-slate-950 border-y border-ice-900/50">
