@@ -14,14 +14,14 @@
 
   --color-snow: #f8fafc;
 
-  --font-fantasy: "Cinzel", serif;
-  --font-sans: "Inter", sans-serif;
+  --font-fantasy: "Times New Roman", Times, serif;
+  --font-sans: "Times New Roman", Times, serif;
 
-  --image-hero-gradient: linear-gradient(to bottom, #0c4a6e, #0284c7);
+  --image-hero-gradient: linear-gradient(to bottom, #000000, #1a1a1a);
 
-  --animate-glitch: glitch 1s linear infinite;
+  --animate-glitch: glitch 0.2s linear infinite;
   --animate-shake: shake 0.5s cubic-bezier(.36, .07, .19, .97) both infinite;
-  --animate-pulse-fast: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-pulse-fast: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 
   @keyframes glitch {
 

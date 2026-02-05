@@ -1,28 +1,25 @@
 import React from 'react';
-import { Twitter, Send } from 'lucide-react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-slate-900 border-t border-ice-900/50 py-12 relative overflow-hidden">
-            <div className="container mx-auto px-4 flex flex-col items-center">
-                <h2 className="text-3xl font-fantasy text-ice-300 mb-8">$SNOUT</h2>
-
-                <div className="flex gap-6 mb-8">
-                    <a href="#" className="p-3 bg-slate-800 rounded-full text-ice-400 hover:bg-ice-600 hover:text-white transition-colors">
-                        <Twitter size={24} />
-                    </a>
-                    <a href="#" className="p-3 bg-slate-800 rounded-full text-ice-400 hover:bg-ice-600 hover:text-white transition-colors">
-                        <Send size={24} />
-                    </a>
+        <footer className="bg-black py-12 border-t border-white/10">
+            <div className="container mx-auto px-4 text-center">
+                <div className="mb-8">
+                    {/* Raw Links */}
+                    <div className="flex justify-center flex-wrap gap-8 mb-8">
+                        <a href="https://x.com/i/communities/2019316024764448961" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
+                            X Community (Tribe)
+                        </a>
+                        <a href="https://pump.fun/board" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
+                            Twitter
+                        </a>
+                        <a href="#" className="text-white/60 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold border-b border-white/20 hover:border-white">
+                            Telegram
+                        </a>
+                    </div>
                 </div>
-
-                <p className="text-slate-600 text-sm text-center max-w-md">
-                    $SNOUT is a meme coin with no intrinsic value or expectation of financial return.
-                    There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.
-                </p>
-
-                <p className="mt-8 text-slate-700 text-xs">
-                    © 2024 Snow Trout. All rights frozen.
+                <p className="text-white/30 text-xs uppercase tracking-widest font-serif">
+                    $SNOUT © 2026. The Frozen Will.
                 </p>
             </div>
         </footer>
