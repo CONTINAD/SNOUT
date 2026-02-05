@@ -29,12 +29,12 @@ const Hero: React.FC = () => {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, ease: "easeOut" }}
-                    className="relative w-64 h-64 md:w-96 md:h-96 mb-8 rounded-full border-4 border-ice-400/30 shadow-[0_0_50px_rgba(56,189,248,0.3)] overflow-hidden"
+                    className="relative w-64 h-64 md:w-96 md:h-96 mb-8 rounded-full border-4 border-ice-400/30 shadow-[0_0_50px_rgba(56,189,248,0.3)] overflow-hidden bg-slate-900"
                 >
                     <img
                         src={snowTroutImg}
                         alt="Snow Trout"
-                        className="w-full h-full object-cover scale-110 hover:scale-125 transition-transform duration-700"
+                        className="w-full h-full object-contain scale-100 hover:scale-110 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 ring-inset ring-2 ring-ice-200/20 rounded-full pointer-events-none"></div>
                 </motion.div>
