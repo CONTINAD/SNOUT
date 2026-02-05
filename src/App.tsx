@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Lore from './components/Lore';
 import Tokenomics from './components/Tokenomics';
 import HowToBuy from './components/HowToBuy';
+import Chart from './components/Chart';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Lore />
         <Tokenomics />
+        <Chart />
         <HowToBuy />
       </main>
       <Footer />
