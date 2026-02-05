@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
                     <img
                         src={snowTroutImg}
                         alt="Snow Trout"
-                        className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                        className="w-full h-full object-cover"
                     />
                 </motion.div>
 
