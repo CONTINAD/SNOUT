@@ -21,14 +21,15 @@ const Lore: React.FC = () => {
                         <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-ice-400/50 rounded-tl-2xl -mt-2 -ml-2"></div>
                         <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-ice-400/50 rounded-br-2xl -mb-2 -mr-2"></div>
 
-                        <p className="text-lg md:text-xl text-ice-100 leading-relaxed font-light mb-6">
-                            In the deepest trenches of the Solana blockchain, where the temperatures drop to absolute zero,
-                            <span className="text-ice-300 font-bold"> $SNOUT </span>
-                            was born. Not from fire, but from the eternal ice.
+                        <p className="text-lg md:text-xl text-ice-100 leading-relaxed font-light mb-6 text-left">
+                            When the <span className="text-white font-bold tracking-widest uppercase">Snow Meta</span> collided with the legendary <span className="text-ice-300 font-bold">Trout</span>, a new titan was forged.
+                            <span className="text-ice-300 font-bold"> $SNOUT </span> is the culmination of the frozen narrative—the evolution of the river warrior into a galactic frost lord.
                         </p>
-                        <p className="text-lg md:text-xl text-ice-100 leading-relaxed font-light">
-                            He is the guardian of the frozen liquidity, the warrior who swims upstream against the bear market currents.
-                            Clad in armor forged from permafrost, he waits for the thaw that will unleash the bull run.
+                        <p className="text-lg md:text-xl text-ice-100 leading-relaxed font-light mb-6 text-left border-l-2 border-ice-500 pl-6 italic bg-ice-900/10 py-4">
+                            "The legacy is clear. We watched <span className="text-white font-bold uppercase">Big Trout</span> rip to a massive <span className="text-green-400 font-mono tracking-tighter">$2M Market Cap</span>. $SNOUT is here to break the ice and take it even further."
+                        </p>
+                        <p className="text-lg md:text-xl text-ice-100 leading-relaxed font-light text-left">
+                            Clad in armor forged from permafrost and wearing the skulls of the fudders he's outlived, the Snow Trout doesn't just swim; he reigns. He is the guardian of the frozen liquidity, waiting for the global thaw that will unleash the greatest bull run in history.
                         </p>
                     </div>
                 </motion.div>
